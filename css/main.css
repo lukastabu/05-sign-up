@@ -1,0 +1,28 @@
+body,
+body *  {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: beige;
+
+}
+.container {
+    width: 500px;
+    margin-top: 55px;
+    margin-left: calc(15% - 20px);
+}
+
+.left-column {
+    float: left;
+    width: 35%;
+    padding: 40px;
+    background-color: aquamarine;
+}
+
+.right-column {
+    float: left;
+    width: 55%;
+    padding: 60px;
+    background-color: lightgrey;
+}
