@@ -4,11 +4,15 @@ body *  {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    background-color: beige;
 
 }
+
+body {
+    background-color: rgb(88, 35, 233);
+}
+
 .container {
-    width: 500px;
+    width: 800px;
     margin-top: 55px;
     margin-left: calc(15% - 20px);
 }
@@ -17,12 +21,25 @@ body *  {
     float: left;
     width: 35%;
     padding: 40px;
-    background-color: aquamarine;
+    background-color: rgb(0,150, 199);
+    color: white;
+ }
+
+.main-title {
+    width: 100%;
+    margin-bottom: 300px;
+    font-size: 29px;
+    font-weight: normal;
+}
+
+.bottom-link > .link {
+    font-style: none;
+    color: white;
 }
 
 .right-column {
     float: left;
     width: 55%;
     padding: 60px;
-    background-color: lightgrey;
+    background-color: white;
 }
