@@ -19,10 +19,14 @@ body {
 
 .left-column {
     float: left;
-    width: 35%;
-    padding: 40px;
+    width: 40%;
+    height: 390px;
+    padding: 30px;
     background-color: rgb(0,150, 199);
+    background-image: url(../images/kings-left-collumn.png) ;
     color: white;
+    background-size: cover;
+    background-position: right;
  }
 
 .main-title {
@@ -40,6 +44,6 @@ body {
 .right-column {
     float: left;
     width: 55%;
-    padding: 60px;
+    padding: 30px;
     background-color: white;
 }
