@@ -1,18 +1,9 @@
-body,
-body *  {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-
-}
-
 body {
     background-color: rgb(88, 35, 233);
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin-top: 55px;
     margin-left: calc(15% - 20px);
 }
@@ -20,7 +11,6 @@ body {
 .left-column {
     float: left;
     width: 40%;
-    height: 390px;
     padding: 30px;
     background-color: rgb(0,150, 199);
     background-image: url(../images/kings-left-collumn.png) ;
@@ -32,7 +22,7 @@ body {
 .main-title {
     width: 100%;
     margin-bottom: 300px;
-    font-size: 29px;
+    font-size: 45px;
     font-weight: normal;
 }
 
