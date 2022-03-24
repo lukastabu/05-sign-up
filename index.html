@@ -12,14 +12,24 @@
     <link rel="mask-icon" href="./images/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    
+    <!-- base reset style -->
+    <link rel="stylesheet" href="./css/reset.css">
+    
+    <!-- components style -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    
+    <!-- custom style -->
     <link rel="stylesheet" href="./css/main.css">
+ 
 </head>
 
 <body>
         <main class="container">
         <div class="left-column">
             
-            <h1 class="main-title">Sign-Up</h1>
+            <h1 class="main-title">Sign-up</h1>
             <footer class="bottom-link">
                 <a href="#" class="link">Privacy policy</a>
                 &amp;
@@ -27,7 +37,30 @@
             </footer>
         </div>
         <div class="right-column">
-            Right
+            <div class="close">x</div>
+            <form class="form">
+                <div class="form-row">
+                    <label for="username" class="label">Username</label>
+                    <input id="username" type="text" class="input" placeholder="Your username" required>
+                </div>
+                <div class="form-row">
+                    <label for="email" class="label">Email</label>
+                    <input id="email" type="email" class="input" placeholder="Your email" required>
+                </div>
+                <div class="form-row">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" type="password" class="input" placeholder="Your unique password" required>
+                </div>
+                <div class="form-row">
+                    <label for="repass" class="label">Repeat password</label>
+                    <input id="repass" type="password" class="input" placeholder="Re-enter your password" required>
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="button">Get started</button>
+                    <span>or</span>
+                    <a href="#">Sign in</a>
+                </div>
+            </form>
         </div>
     </main> 
 </body>
