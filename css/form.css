@@ -34,6 +34,10 @@ close{
     padding-bottom: 5px
 }
 
+.form > .form-row > .input:focus-visible {
+    outline: 3px solid #20b2aa;
+}
+
 .form span {
     line-height: 40px;
     margin-left: 20px;
@@ -47,5 +51,5 @@ close{
 
 .form a:hover {
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 22px;
 }
