@@ -1,1 +1,16 @@
+.button {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border-color: lightskyblue;
+    background-color: blue;
+    color: white;
+}
 
+.button:hover {
+    background-color: orchid;
+    cursor: pointer;
+}
