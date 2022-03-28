@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(88, 35, 233);
+    background-image:  url(../images/kings-left-collumn.png);
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20px);
     height: 100vh;
 }
 
