@@ -1,13 +1,15 @@
 body {
     background-color: rgb(88, 35, 233);
+    height: 100vh;
 }
 
 .container {
     display: inline-block;
     width: 900px;
-    margin-top: 55px;
-    margin-left: calc(15% - 20px);
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-column {
@@ -59,4 +61,5 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    cursor: pointer;
     }
